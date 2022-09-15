@@ -1,6 +1,7 @@
 # Rutas
 
 # Deploy https://project-airbnb-sv.onrender.com
+# Gracias por todo profesor
 
 - /api/v1/users
 - /api/v1/users/:id
