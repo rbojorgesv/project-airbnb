@@ -56,7 +56,7 @@ app.use(express.json());
  
 
   //res.status(200).json({ message: "All ok!" });
-});
+//});
 app.use("/api/v1/users", userRouter);
 app.use("/api/v1/auth", authRouter);
 app.use("/api/v1/accommodations", accomodationRouter)
@@ -80,8 +80,8 @@ app.get("/ejemplo",
   }
 );
 
-app.listen(8000, () => {
-  console.log("Server started at port 8000");
+app.listen(PORT, () => {
+  console.log(`Server started at port ${PORT}`);
 });
 
 exports.default = app
